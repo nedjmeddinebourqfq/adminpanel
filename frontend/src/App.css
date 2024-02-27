@@ -1,0 +1,48 @@
+/* تحديد نمط خلفية للعنصر الرئيسي */
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* تحديد أنماط لعناصر النموذج */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* تنسيق زر تسجيل الدخول */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* تحديد نمط العنوان الرئيسي */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* تنسيق رسالة الخطأ */
+.text-danger {
+  color: #dc3545;
+}
