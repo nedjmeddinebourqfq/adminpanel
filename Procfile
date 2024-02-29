@@ -1,1 +1,2 @@
-web: gunicorn djangorest.wsgi --log-file -
+web: gunicorn adminpanel.wsgi --log-file -
+
