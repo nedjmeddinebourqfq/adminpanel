@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import JsonResponse
 import json
 from django.contrib.auth import authenticate , login , logout
 from django.http import JsonResponse
@@ -41,6 +42,11 @@ def whoami_view(request):
 
 def react_app_view(request):
     return render(request, 'index.html')
+
+from django.http import JsonResponse
+
+
+
 
     
    
