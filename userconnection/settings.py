@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'knox',
     'accounts',
     'frontend',
+    'userconnection'
     
     'corsheaders',
 
