@@ -54,11 +54,10 @@ INSTALLED_APPS = [
     'user',
     'rest_framework' ,  
     'knox',
+    'userconnection',
     'accounts',
     'frontend',
-    'userconnection',
-    
-    
+    'corsheaders'
 
     ]
 REST_FRAMEWORK = {
