@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     'frontend',
     'userconnection',
     
-    'corsheaders'
+    
 
     ]
 REST_FRAMEWORK = {
